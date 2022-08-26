@@ -3,6 +3,9 @@ uuid = "06d70eed-81ac-42e2-b376-969860da2e08"
 authors = ["Christopher Stook <chris@chrisstook.com> and contributors"]
 version = "0.1.0"
 
+[deps]
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+
 [compat]
 julia = "1"
 

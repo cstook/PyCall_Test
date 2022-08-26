@@ -1,5 +1,8 @@
 module PyCall_Test
+export math, pysin
 
-# Write your package code here.
+using PyCall
+math = pyimport("math")
+pysin(x) = math.sin(x)
 
 end
